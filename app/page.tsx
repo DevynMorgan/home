@@ -50,17 +50,6 @@ export default function Home() {
             </div>
           </article>
         </div>
-
-        <div className="portal">
-          <p className="portalTitle">THE CITY IS PREPARING</p>
-          <p className="portalText">
-            Our doors are open, and the rest of Opaline is coming together.
-            Links to our individual sites and subdomains will be available here shortly.
-          </p>
-          <div className="coming">
-            <i /><span>SUBDOMAIN LINKS · COMING SHORTLY</span><i />
-          </div>
-        </div>
       </section>
 
       <div className="northStar" aria-hidden="true">✦</div>
