@@ -14,11 +14,7 @@ export default function Home() {
       </svg>
 
       <header className="brand">
-        <div className="seal" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-        </div>
+        <div className="seal" aria-hidden="true"><span /><span /><span /></div>
         <p>OPALINE</p>
         <small>ALASKA · EST. 2026</small>
       </header>
@@ -29,6 +25,32 @@ export default function Home() {
         <div className="rule"><span /></div>
         <p className="tagline">A world of stories, secrets, and lives waiting to be lived.</p>
 
+        <div className="network">
+          <article className="networkCard medical">
+            <div className="medicalMark"><span>+</span><i /><b /></div>
+            <div>
+              <p className="cardKicker">OPALINE · COMMUNITY</p>
+              <h2>Medical Center</h2>
+              <p>Care, emergency medicine, and the people who keep Opaline moving.</p>
+            </div>
+          </article>
+
+          <article className="networkCard responders">
+            <div className="responderBadge">
+              <strong>OPALINE</strong>
+              <span className="badgeMountain">⌃⌃⌃</span>
+              <em>★</em>
+              <small>FIRST RESPONDERS</small>
+              <label>FIRE · EMS · POLICE</label>
+            </div>
+            <div>
+              <p className="cardKicker">OPALINE · PUBLIC SAFETY</p>
+              <h2>First Responders</h2>
+              <p>The people answering the call when Opaline needs them most.</p>
+            </div>
+          </article>
+        </div>
+
         <div className="portal">
           <p className="portalTitle">THE CITY IS PREPARING</p>
           <p className="portalText">
@@ -36,9 +58,7 @@ export default function Home() {
             Links to our individual sites and subdomains will be available here shortly.
           </p>
           <div className="coming">
-            <i />
-            <span>SUBDOMAIN LINKS · COMING SHORTLY</span>
-            <i />
+            <i /><span>SUBDOMAIN LINKS · COMING SHORTLY</span><i />
           </div>
         </div>
       </section>
