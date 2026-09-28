@@ -38,9 +38,9 @@ export default function Home() {
           <article className="networkCard responders">
             <div className="responderBadge">
               <strong>OPALINE</strong>
-              <span className="badgeMountain">⌃⌃⌃</span>
               <em>★</em>
               <small>FIRST RESPONDERS</small>
+              <em>★</em>
               <label>FIRE · EMS · POLICE</label>
             </div>
             <div>
