@@ -26,7 +26,7 @@ export default function Home() {
         <p className="tagline">A world of stories, secrets, and lives waiting to be lived.</p>
 
         <div className="network">
-          <a className="networkLink" href="https://opmedical.opalinesl.com/" target="_blank" rel="noreferrer"><article className="networkCard medical">
+          <a className="networkLink" href="https://my.ionos.com/domain/details/opmedical.opalinesl.com" target="_blank" rel="noreferrer"><article className="networkCard medical">
             <div className="medicalMark"><span>+</span><i /><b /></div>
             <div>
               <p className="cardKicker">OPALINE · COMMUNITY</p>
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
           </article></a>
 
-          <a className="networkLink" href="https://opd.opalinesl.com/" target="_blank" rel="noreferrer"><article className="networkCard responders">
+          <a className="networkLink" href="https://my.ionos.com/domain/details/opd.opalinesl.com" target="_blank" rel="noreferrer"><article className="networkCard responders">
             <div className="responderBadge">
               <strong>OPALINE</strong>
               <em>★</em>
