@@ -26,16 +26,16 @@ export default function Home() {
         <p className="tagline">A world of stories, secrets, and lives waiting to be lived.</p>
 
         <div className="network">
-          <a className="networkLink" href="https://my.ionos.com/domain/details/opmedical.opalinesl.com" target="_blank" rel="noreferrer"><article className="networkCard medical">
+          <div className="networkLink"><article className="networkCard medical">
             <div className="medicalMark"><span>+</span><i /><b /></div>
             <div>
               <p className="cardKicker">OPALINE · COMMUNITY</p>
               <h2>Medical Center</h2>
               <p>Care, emergency medicine, and the people who keep Opaline moving.</p>
             </div>
-          </article></a>
+          </article></div>
 
-          <a className="networkLink" href="https://my.ionos.com/domain/details/opd.opalinesl.com" target="_blank" rel="noreferrer"><article className="networkCard responders">
+          <div className="networkLink"><article className="networkCard responders">
             <div className="responderBadge">
               <strong>OPALINE</strong>
               <em>★</em>
@@ -48,7 +48,7 @@ export default function Home() {
               <h2>First Responders</h2>
               <p>The people answering the call when Opaline needs them most.</p>
             </div>
-          </article></a>
+          </article></div>
         </div>
       </section>
 
